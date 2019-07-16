@@ -1,4 +1,4 @@
-module kafka-go
+module github.com/ocsen-hoc-code/kafka-go
 
 go 1.12
 

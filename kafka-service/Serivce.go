@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	ocsenConsumer "kafka-go/kafka-consumer"
-	ocsenProducer "kafka-go/kafka-producer"
+	ocsenConsumer "github.com/ocsen-hoc-code/kafka-go/kafka-consumer"
+	ocsenProducer "github.com/ocsen-hoc-code/kafka-go/kafka-producer"
 
 	"gopkg.in/confluentinc/confluent-kafka-go.v1/kafka"
 )
