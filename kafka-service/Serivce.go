@@ -1,12 +1,14 @@
 package Service
 
 import (
-	ocsenConsumer "../kafka-consumer"
-	ocsenProducer "../kafka-producer"
 	"context"
 	"fmt"
-	"gopkg.in/confluentinc/confluent-kafka-go.v1/kafka"
 	"time"
+
+	ocsenConsumer "kafka-go/kafka-consumer"
+	ocsenProducer "kafka-go/kafka-producer"
+
+	"gopkg.in/confluentinc/confluent-kafka-go.v1/kafka"
 )
 
 type KafkaService struct {
