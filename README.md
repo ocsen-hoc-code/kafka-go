@@ -1,1 +1,1 @@
-# kafka-go
+# kafka-service
